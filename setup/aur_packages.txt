@@ -1,0 +1,9 @@
+metasploit
+exploitdb
+steghide
+rustscan
+jhon
+smbmap
+wpscan
+ccrypt
+responder
