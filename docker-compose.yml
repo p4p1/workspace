@@ -1,0 +1,12 @@
+version: "3"
+services:
+  machine1:
+    build: ./test/
+
+  machine2:
+    build: ./test/
+    networks:
+      - workspace
+
+networks:
+  workspace:

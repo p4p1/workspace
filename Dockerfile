@@ -40,4 +40,4 @@ RUN make -C /conf/backup/.source/scripts/
 # set timezone
 RUN ln -s /usr/share/zoneinfo/Europe/Paris /etc/localtime
 
-CMD [ "su", "user", "-c" "/bin/bash" ]
+CMD [ "/bin/bash" ]
